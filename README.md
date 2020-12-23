@@ -12,5 +12,5 @@ These functions all compute the location of the tool tip with respect to the too
 ## Tool_Axis_Calibration_Testing
 This function computes the tool's axis direction vector in its own frame using a matrix of tool marker points in the tracker frame. Methods are described in the module.
 
-## Surgical Navigation
+## Surgical_Navigation
 This function uses the patient markers in both the CT and tracker frame, the tumor and window centre and radius in the CT frame, the tool markers in the tracker frame, and the tip and direction vector of the tool in the tool frame to compute the tool's current trajectory and distance to the tumor centre as described above. 
